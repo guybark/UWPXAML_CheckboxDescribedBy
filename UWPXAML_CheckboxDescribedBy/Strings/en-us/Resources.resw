@@ -117,10 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="PreloadCheckbox.Content" xml:space="preserve">
+  <data name="DemoNotification" xml:space="preserve">
+    <value>Salad option is unavailable with selection two.</value>
+  </data>
+  <data name="IncludeSaladCheckBox.Content" xml:space="preserve">
+    <value>Include salad</value>
+  </data>
+  <data name="PreloadCheckBox.Content" xml:space="preserve">
     <value>Preload resources</value>
   </data>
-  <data name="PreloadDescription.Text" xml:space="preserve">
+  <data name="PreloadDescriptionTB.Text" xml:space="preserve">
     <value>Preloading resources is a really good idea.</value>
   </data>
 </root>

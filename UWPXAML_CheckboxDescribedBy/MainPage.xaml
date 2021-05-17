@@ -10,8 +10,13 @@
 
     <Grid Margin="20">
         <StackPanel>
-            <CheckBox x:Name="PreloadCheckbox" x:Uid="PreloadCheckbox" />
-            <TextBlock x:Name="PreloadDescription" x:Uid="PreloadDescription" />
+            <CheckBox x:Name="PreloadCheckBox" x:Uid="PreloadCheckBox" />
+            <TextBlock x:Name="PreloadDescriptionTB" x:Uid="PreloadDescriptionTB" />
+            <CheckBox x:Name="IncludeSaladCheckBox" x:Uid="IncludeSaladCheckBox" />
+            <ComboBox SelectionChanged="ComboBox_SelectionChanged">
+                <ComboBoxItem Content="One" />
+                <ComboBoxItem Content="Two" />
+            </ComboBox>
         </StackPanel>
     </Grid>
 </Page>
