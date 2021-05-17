@@ -123,6 +123,9 @@
   <data name="IncludeSaladCheckBox.Content" xml:space="preserve">
     <value>Include salad</value>
   </data>
+  <data name="IncludeSaladDescriptionTB.Text" xml:space="preserve">
+    <value>Salad option is unavailable with selection two.</value>
+  </data>
   <data name="PreloadCheckBox.Content" xml:space="preserve">
     <value>Preload resources</value>
   </data>

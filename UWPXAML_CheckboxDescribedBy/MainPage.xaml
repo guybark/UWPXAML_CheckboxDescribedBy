@@ -13,6 +13,9 @@
             <CheckBox x:Name="PreloadCheckBox" x:Uid="PreloadCheckBox" />
             <TextBlock x:Name="PreloadDescriptionTB" x:Uid="PreloadDescriptionTB" />
             <CheckBox x:Name="IncludeSaladCheckBox" x:Uid="IncludeSaladCheckBox" />
+            <TextBlock x:Name="IncludeSaladDescriptionTB" x:Uid="IncludeSaladDescriptionTB" 
+                AutomationProperties.LiveSetting="Assertive" 
+                Visibility="Collapsed" />
             <ComboBox SelectionChanged="ComboBox_SelectionChanged">
                 <ComboBoxItem Content="One" />
                 <ComboBoxItem Content="Two" />
