@@ -12,11 +12,17 @@
         <StackPanel>
             <CheckBox x:Name="PreloadCheckBox" x:Uid="PreloadCheckBox" />
             <TextBlock x:Name="PreloadDescriptionTB" x:Uid="PreloadDescriptionTB" />
-            <CheckBox x:Name="IncludeSaladCheckBox" x:Uid="IncludeSaladCheckBox" />
+            
+            <CheckBox x:Name="IncludeSaladCheckBox" x:Uid="IncludeSaladCheckBox" 
+                Margin="0 10 0 0" />
             <TextBlock x:Name="IncludeSaladDescriptionTB" x:Uid="IncludeSaladDescriptionTB" 
                 AutomationProperties.LiveSetting="Assertive" 
                 Visibility="Collapsed" />
-            <ComboBox SelectionChanged="ComboBox_SelectionChanged">
+
+            <TextBlock x:Name="ChoiceTB" x:Uid="ChoiceTB"
+                Margin="0 10 0 0" />
+            <ComboBox SelectionChanged="ComboBox_SelectionChanged"
+                AutomationProperties.LabeledBy="{Binding ElementName=ChoiceTB}">
                 <ComboBoxItem Content="One" />
                 <ComboBoxItem Content="Two" />
             </ComboBox>
